@@ -17,26 +17,26 @@
 
     <header>
         <nav class="navbar bg-white">
-            <div class="col-3">
+            <div class="col-2">
                 <a class="navbar-brand d-flex justify-content-center" href="#">
-                    <img src="assets/img/mobile-logo.png" alt="mobile-logo" class="d-lg-none w-100">
+                    <img src="assets/img/mobile-logo.png" alt="mobile-logo" class="d-lg-none img-fluid">
                     <img src="assets/img/logo.svg" alt="Logo" class="d-none d-lg-block">
                 </a>
             </div>
-            <div class="col-6">
+            <div class="col-8">
                 <div class="input-group flex-nowrap">
-                    <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
-                    <input type="text" class="form-control" placeholder="Prova a cercare: Lezioni di Laravel"
-                        aria-label="Username" aria-describedby="addon-wrapping">
+                    <span class="input-group-text border-0" id="basic-addon1 "><i
+                            class="fa-solid fa-magnifying-glass"></i></span>
+                    <input type="text" class="form-control2 border-0" placeholder="Prova a cercare: Lezioni di Laravel">
                 </div>
             </div>
-            <div class="col-3 d-flex">
+            <div class="col-2 d-flex">
                 <i class="fa-solid fa-list d-none d-lg-block px-2"></i>
                 <i class="fa-solid fa-circle-question d-none d-lg-block px-2"></i>
                 <i class="fa-solid fa-ellipsis-vertical d-none d-lg-block px-2"></i>
                 <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle mx-2 bg-white border-0" type="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
+                    <button class="btn btn-secondary dropdown-toggle mx-2 bg-white border-0" type="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
                         <i class="fa-solid fa-bell gold"></i>
                     </button>
 
@@ -50,6 +50,45 @@
             </div>
         </nav>
     </header>
+
+    <main>
+        <div class="row">
+            <div class="col-2 bg-dark text-white d-flex flex-column justify-content-between side-menu">
+                <div>
+                    <div class="d-flex p-2 align-items-center justify-content-center">
+                        <i class="fa-solid fa-house"></i>
+                        <div class="d-none d-lg-block px-1">Home</div>
+                    </div>
+                    <div class="d-flex p-2 align-items-center justify-content-center">
+                        <i class="fa-solid fa-chart-simple"></i>
+                        <div class="d-none d-lg-block px-1">Stats</div>
+                    </div>
+                    <div class="d-flex p-2 align-items-center justify-content-center">
+                        <i class="fa-solid fa-signal"></i>
+                        <div class="d-none d-lg-block px-1">Signal</div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex p-2 align-items-center justify-content-center">
+                        <i class="fa-solid fa-gear"></i>
+                        <div class="d-none d-lg-block px-1">Admin</div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-10">
+                <div class="row">
+                    <div class="col-sm gg col-8">
+                        <h1 class="text-white">Boolean</h1>
+                    </div>
+                    <div class="col-sm gg col-4">
+                        <h4 class="text-white">adam sendler</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
