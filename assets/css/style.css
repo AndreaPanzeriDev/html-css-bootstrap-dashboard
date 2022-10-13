@@ -68,3 +68,6 @@ tr{
     width: 80%;
 }
 
+.lhov:hover{
+    background-color: rgb(124, 124, 124);
+}
