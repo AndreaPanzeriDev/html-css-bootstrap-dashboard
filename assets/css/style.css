@@ -27,11 +27,22 @@ header{
           MAIN
 *************************/
 
-.side-menu{
+main{
     height: calc(100vh - 85px);
+    background-color: lightcoral;
 }
+
 
 .gg{
     background-color: rgb(0, 81, 255);
     height: auto;
+}
+
+.side-bar{
+    background-image: url(../img/sidebar-bg.png);
+    background-size: cover;
+}
+
+.fa-forward{
+    color: white;
 }
