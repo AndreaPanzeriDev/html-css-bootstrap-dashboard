@@ -36,16 +36,24 @@ main{
 .gg{
     background-color: rgb(0, 81, 255);
     height: auto;
+    
+}
+
+.of{
+    height: calc(100vh - 85px);
+    overflow: auto;
 }
 
 .side-bar{
     background-image: url(../img/sidebar-bg.png);
     background-size: cover;
+    height: calc(100vh - 85px);
 }
 
 .fa-forward{
     color: white;
 }
+
 
 
 .mw{
@@ -60,3 +68,4 @@ tr{
 .offcanvas{
     width: 80%;
 }
+
