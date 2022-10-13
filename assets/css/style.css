@@ -46,3 +46,17 @@ main{
 .fa-forward{
     color: white;
 }
+
+
+.mw{
+    max-width: 7%;
+}
+
+tr{
+    vertical-align: middle;
+}
+
+
+.offcanvas{
+    width: 80%;
+}
